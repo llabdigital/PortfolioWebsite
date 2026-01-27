@@ -1,7 +1,7 @@
-/* Contact Section Styles */
+/* Contact Section Styles - LEGACY Lab Digital */
 .contact {
   padding: 5rem 2rem;
-  background: white;
+  background: #e5e1dc;
 }
 
 .contact-content {
@@ -14,11 +14,11 @@
 .contact-info h3 {
   font-size: 2rem;
   margin: 0 0 1rem 0;
-  color: #333;
+  color: #000000;
 }
 
 .contact-info p {
-  color: #666;
+  color: #333333;
   line-height: 1.6;
   margin: 0 0 2rem 0;
 }
@@ -43,13 +43,13 @@
 
 .contact-item h4 {
   margin: 0 0 0.3rem 0;
-  color: #333;
+  color: #000000;
   font-size: 1rem;
 }
 
 .contact-item p {
   margin: 0;
-  color: #666;
+  color: #333333;
   font-size: 0.95rem;
 }
 
@@ -62,17 +62,18 @@
 .social-link {
   display: inline-block;
   padding: 0.6rem 1.2rem;
-  background: #f0f0f0;
-  color: #667eea;
+  background: #ffffff;
+  color: #d4af37;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 0;
   transition: all 0.3s ease;
   font-weight: 500;
+  border: 1px solid #d4af37;
 }
 
 .social-link:hover {
-  background: #667eea;
-  color: white;
+  background: #d4af37;
+  color: #000000;
   transform: translateY(-2px);
 }
 
@@ -80,9 +81,10 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background: #f8f9fa;
+  background: #ffffff;
   padding: 2rem;
-  border-radius: 8px;
+  border-radius: 0;
+  border: 1px solid #d4af37;
 }
 
 .form-group {
@@ -93,30 +95,49 @@
 
 .form-group label {
   font-weight: 600;
-  color: #333;
+  color: #000000;
   font-size: 0.95rem;
 }
 
 .form-group input,
 .form-group textarea {
   padding: 0.8rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid #d4af37;
+  border-radius: 0;
   font-size: 1rem;
   font-family: inherit;
   transition: border-color 0.3s ease;
+  background: #ffffff;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #8b2e2e;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
 .form-group textarea {
   resize: vertical;
   min-height: 150px;
+}
+
+.contact-form .btn-primary {
+  background: #d4af37;
+  color: #000000;
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-form .btn-primary:hover {
+  background: #000000;
+  color: #d4af37;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {

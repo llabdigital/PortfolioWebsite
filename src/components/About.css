@@ -1,7 +1,7 @@
-/* About Section Styles */
+/* About Section Styles - LEGACY Lab Digital */
 .about {
   padding: 5rem 2rem;
-  background: #f8f9fa;
+  background: #ffffff;
 }
 
 .container {
@@ -14,7 +14,7 @@
   font-weight: bold;
   text-align: center;
   margin: 0 0 3rem 0;
-  color: #333;
+  color: #000000;
 }
 
 .about-content {
@@ -27,7 +27,7 @@
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #555;
+  color: #333333;
   margin-bottom: 1.5rem;
 }
 
@@ -44,13 +44,13 @@
 
 .stat h3 {
   font-size: 2.5rem;
-  color: #667eea;
+  color: #d4af37;
   margin: 0 0 0.5rem 0;
 }
 
 .stat p {
   margin: 0;
-  color: #666;
+  color: #666666;
   font-size: 0.95rem;
 }
 
@@ -63,12 +63,13 @@
 .image-placeholder {
   width: 100%;
   aspect-ratio: 1;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 10px;
+  background: linear-gradient(135deg, #e5e1dc 0%, #000000 100%);
+  border-radius: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d4af37;
 }
 
 .placeholder-content {

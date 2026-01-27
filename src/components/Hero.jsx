@@ -12,39 +12,36 @@ function Hero() {
     <section id="hero" className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="hero-title">Hi, I'm a Freelance Developer</h1>
+          <h1 className="hero-title">
+            Digital Solutions
+            <br />
+            <span className="gold-text">For Local Brands</span>
+          </h1>
           <p className="hero-subtitle">
-            I create beautiful, responsive web applications and digital
-            solutions
+            Professional web design, lead generation, and digital strategy for
+            small businesses and entrepreneurs.
           </p>
           <div className="hero-buttons">
             <button
               className="btn btn-primary"
               onClick={() => scrollToSection('projects')}
             >
-              View My Work
+              Our Work
             </button>
             <button
               className="btn btn-secondary"
               onClick={() => scrollToSection('contact')}
             >
-              Get In Touch
+              Build Your Brand
             </button>
           </div>
         </div>
         <div className="hero-visual">
-          <div className="code-block">
-            <div className="code-header">
-              <span className="code-dot"></span>
-              <span className="code-dot"></span>
-              <span className="code-dot"></span>
-            </div>
-            <pre className="code-text">{`const developer = {
-  name: "Your Name",
-  passion: "Web Development",
-  skills: ["React", "Node.js", ...],
-  available: true
-}`}</pre>
+          <div className="hero-tagline-box">
+            <p className="hero-tagline">"Where culture meets code"</p>
+            <p className="hero-tagline-sub">
+              Elevating local businesses through premium digital design
+            </p>
           </div>
         </div>
       </div>

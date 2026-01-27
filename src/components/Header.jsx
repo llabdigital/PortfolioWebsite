@@ -16,7 +16,12 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>Dev.</h1>
+          <h1 className="font-old-english">
+            LEGACY
+            <br />
+            Lab Digital
+          </h1>
+          <p className="logo-tagline">Where culture meets code</p>
         </div>
         <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
           <button onClick={() => scrollToSection('hero')} className="nav-link">
