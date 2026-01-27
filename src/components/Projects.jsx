@@ -4,57 +4,57 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'Local Coffee Shop Website',
       description:
-        'A full-stack e-commerce solution with payment integration, inventory management, and user authentication.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+        'Professional website for a local cafe with menu display, online reservations, and social media integration.',
+      technologies: ['React', 'HTML/CSS', 'Contact Forms', 'Responsive Design'],
       link: '#',
-      image: '🛒',
+      image: '☕',
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'HVAC Service Landing Page',
       description:
-        'Collaborative task management application with real-time updates and team collaboration features.',
-      technologies: ['React', 'Firebase', 'Tailwind CSS'],
+        'Lead generation landing page for heating and cooling services with service areas, testimonials, and CTA buttons.',
+      technologies: ['HTML/CSS', 'JavaScript', 'Lead Forms', 'SEO Optimized'],
       link: '#',
-      image: '✓',
+      image: '🔧',
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
+      title: 'Real Estate Agency Website',
       description:
-        'Real-time weather application with location-based forecasts, interactive maps, and detailed analytics.',
-      technologies: ['React', 'API', 'Charts.js', 'CSS'],
+        'Property listing website showcasing homes for sale with image galleries, agent profiles, and property filters.',
+      technologies: ['React', 'CSS Grid', 'Image Galleries', 'Responsive Layout'],
       link: '#',
-      image: '🌤️',
+      image: '🏠',
     },
     {
       id: 4,
-      title: 'Social Media Feed',
+      title: 'Dental Practice Website',
       description:
-        'Social platform with user profiles, posts, comments, likes, and real-time notifications.',
-      technologies: ['React', 'Express', 'PostgreSQL', 'Socket.io'],
+        'Professional website for dental clinic featuring services, appointment booking, patient testimonials, and contact info.',
+      technologies: ['React', 'Contact Forms', 'Appointment Booking', 'Mobile Responsive'],
       link: '#',
-      image: '👥',
+      image: '😁',
     },
     {
       id: 5,
-      title: 'Portfolio Website',
+      title: 'Local Electrician Lead Form',
       description:
-        'Modern, responsive portfolio websites showcasing professional work and achievements.',
-      technologies: ['React', 'CSS', 'Vite', 'JavaScript'],
+        'Lead capture system for electrical services with service request forms, service areas, and instant quote requests.',
+      technologies: ['Form Builder', 'JavaScript', 'Email Integration', 'Analytics'],
       link: '#',
-      image: '💼',
+      image: '⚡',
     },
     {
       id: 6,
-      title: 'Analytics Dashboard',
+      title: 'Fitness Studio Website',
       description:
-        'Data visualization dashboard with real-time analytics, custom reports, and interactive charts.',
-      technologies: ['React', 'D3.js', 'Node.js', 'MongoDB'],
+        'Modern website for fitness studio with class schedules, pricing, member testimonials, and online registration.',
+      technologies: ['React', 'CSS', 'Class Scheduling', 'Payment Integration'],
       link: '#',
-      image: '📊',
+      image: '💪',
     },
   ];
 
