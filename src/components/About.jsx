@@ -1,4 +1,4 @@
-import './About.css'
+import './About.css';
 
 function About() {
   return (
@@ -8,18 +8,21 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate freelance developer with expertise in building modern web applications.
-              With a focus on clean code and user-centric design, I help businesses and startups bring
-              their ideas to life through technology.
+              I'm a passionate freelance developer with expertise in building
+              modern web applications. With a focus on clean code and
+              user-centric design, I help businesses and startups bring their
+              ideas to life through technology.
             </p>
             <p>
-              My journey in web development started with a curiosity about how things work on the internet.
-              Over the years, I've grown to specialize in full-stack development, creating solutions that
-              are not just functional but also beautiful and intuitive.
+              My journey in web development started with a curiosity about how
+              things work on the internet. Over the years, I've grown to
+              specialize in full-stack development, creating solutions that are
+              not just functional but also beautiful and intuitive.
             </p>
             <p>
-              When I'm not coding, you'll find me contributing to open-source projects, learning new technologies,
-              or sharing knowledge with the developer community.
+              When I'm not coding, you'll find me contributing to open-source
+              projects, learning new technologies, or sharing knowledge with the
+              developer community.
             </p>
             <div className="about-stats">
               <div className="stat">
@@ -47,7 +50,7 @@ function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

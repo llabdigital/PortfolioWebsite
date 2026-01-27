@@ -1,24 +1,38 @@
-import './Skills.css'
+import './Skills.css';
 
 function Skills() {
   const skillCategories = [
     {
       category: 'Frontend',
-      skills: ['React', 'JavaScript', 'CSS', 'HTML', 'Vue.js', 'Responsive Design']
+      skills: [
+        'React',
+        'JavaScript',
+        'CSS',
+        'HTML',
+        'Vue.js',
+        'Responsive Design',
+      ],
     },
     {
       category: 'Backend',
-      skills: ['Node.js', 'Express', 'Python', 'MongoDB', 'SQL', 'REST APIs']
+      skills: ['Node.js', 'Express', 'Python', 'MongoDB', 'SQL', 'REST APIs'],
     },
     {
       category: 'Tools & Platforms',
-      skills: ['Git', 'Docker', 'AWS', 'Webpack', 'Vite', 'Firebase']
+      skills: ['Git', 'Docker', 'AWS', 'Webpack', 'Vite', 'Firebase'],
     },
     {
       category: 'Other',
-      skills: ['Web Performance', 'SEO', 'UI/UX Design', 'Testing', 'Agile', 'Problem Solving']
-    }
-  ]
+      skills: [
+        'Web Performance',
+        'SEO',
+        'UI/UX Design',
+        'Testing',
+        'Agile',
+        'Problem Solving',
+      ],
+    },
+  ];
 
   return (
     <section id="skills" className="skills">
@@ -38,7 +52,7 @@ function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

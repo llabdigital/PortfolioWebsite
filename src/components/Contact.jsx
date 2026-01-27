@@ -1,4 +1,4 @@
-import './Contact.css'
+import './Contact.css';
 
 function Contact({ onFormChange, onFormSubmit, formData }) {
   return (
@@ -9,8 +9,9 @@ function Contact({ onFormChange, onFormSubmit, formData }) {
           <div className="contact-info">
             <h3>Let's Work Together</h3>
             <p>
-              I'm always interested in hearing about new projects and opportunities.
-              Feel free to reach out if you'd like to collaborate.
+              I'm always interested in hearing about new projects and
+              opportunities. Feel free to reach out if you'd like to
+              collaborate.
             </p>
             <div className="contact-details">
               <div className="contact-item">
@@ -36,10 +37,18 @@ function Contact({ onFormChange, onFormSubmit, formData }) {
               </div>
             </div>
             <div className="social-links">
-              <a href="#" className="social-link" title="GitHub">GitHub</a>
-              <a href="#" className="social-link" title="LinkedIn">LinkedIn</a>
-              <a href="#" className="social-link" title="Twitter">Twitter</a>
-              <a href="#" className="social-link" title="Portfolio">Portfolio</a>
+              <a href="#" className="social-link" title="GitHub">
+                GitHub
+              </a>
+              <a href="#" className="social-link" title="LinkedIn">
+                LinkedIn
+              </a>
+              <a href="#" className="social-link" title="Twitter">
+                Twitter
+              </a>
+              <a href="#" className="social-link" title="Portfolio">
+                Portfolio
+              </a>
             </div>
           </div>
           <form className="contact-form" onSubmit={onFormSubmit}>
@@ -86,7 +95,7 @@ function Contact({ onFormChange, onFormSubmit, formData }) {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

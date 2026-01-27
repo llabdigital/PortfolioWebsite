@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import './Header.css'
+import { useState } from 'react';
+import './Header.css';
 
 function Header() {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const scrollToSection = (id) => {
-    const element = document.getElementById(id)
+    const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-    setMenuOpen(false)
-  }
+    setMenuOpen(false);
+  };
 
   return (
     <header className="header">
@@ -25,13 +25,22 @@ function Header() {
           <button onClick={() => scrollToSection('about')} className="nav-link">
             About
           </button>
-          <button onClick={() => scrollToSection('skills')} className="nav-link">
+          <button
+            onClick={() => scrollToSection('skills')}
+            className="nav-link"
+          >
             Skills
           </button>
-          <button onClick={() => scrollToSection('projects')} className="nav-link">
+          <button
+            onClick={() => scrollToSection('projects')}
+            className="nav-link"
+          >
             Projects
           </button>
-          <button onClick={() => scrollToSection('contact')} className="nav-link">
+          <button
+            onClick={() => scrollToSection('contact')}
+            className="nav-link"
+          >
             Contact
           </button>
         </nav>
@@ -45,7 +54,7 @@ function Header() {
         </button>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

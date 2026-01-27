@@ -48,7 +48,7 @@
 }
 
 .skill-list li::before {
-  content: "✓ ";
+  content: '✓ ';
   color: #667eea;
   font-weight: bold;
   margin-right: 0.5rem;

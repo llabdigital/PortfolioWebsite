@@ -1,12 +1,12 @@
-import './Hero.css'
+import './Hero.css';
 
 function Hero() {
   const scrollToSection = (id) => {
-    const element = document.getElementById(id)
+    const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-  }
+  };
 
   return (
     <section id="hero" className="hero">
@@ -14,7 +14,8 @@ function Hero() {
         <div className="hero-text">
           <h1 className="hero-title">Hi, I'm a Freelance Developer</h1>
           <p className="hero-subtitle">
-            I create beautiful, responsive web applications and digital solutions
+            I create beautiful, responsive web applications and digital
+            solutions
           </p>
           <div className="hero-buttons">
             <button
@@ -48,7 +49,7 @@ function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
