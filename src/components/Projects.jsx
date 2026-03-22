@@ -7,16 +7,16 @@ function Projects() {
     {
       id: 1,
       title: 'Tic-Tac-Toe',
-      description: 'Tic-Tac-Toe game for desktop',
+      description: 'A clean, interactive desktop implementation of the classic two-player Tic Tac Toe game built with modern web technologies. Players take turns placing their marks on a dynamic game board, featuring real-time win detection, draw logic, and simple game reset functionality.',
       technologies: ['React', 'HTML/CSS'],
       link: 'https://roaring-froyo-f8ab53.netlify.app/',
       image: TTTImg,
     },
     {
       id: 2,
-      title: 'HVAC Service Landing Page',
+      title: 'Countdown Challenge',
       description:
-        'Lead generation landing page for heating and cooling services with service areas, testimonials, and CTA buttons.',
+        'A clean, interactive desktop timing game where users test their precision by starting and stopping a countdown timer. The application features real-time feedback, simple game controls, and dynamic state updates that create an engaging, challenge-based user experience.',
       technologies: ['HTML/CSS', 'JavaScript', 'Lead Forms', 'SEO Optimized'],
       link: 'https://cosmic-zabaione-3384db.netlify.app/',
       image: CountdownImg,
