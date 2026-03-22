@@ -1,4 +1,5 @@
 import './Projects.css';
+import TTTImg from '../assets/Tic-Tac-Toe.png';
 
 function Projects() {
   const projects = [
@@ -8,7 +9,7 @@ function Projects() {
       description: 'Tic-Tac-Toe game for desktop',
       technologies: ['React', 'HTML/CSS'],
       link: 'https://roaring-froyo-f8ab53.netlify.app/',
-      image: '☕',
+      image: TTTImg,
     },
     {
       id: 2,
@@ -79,8 +80,16 @@ function Projects() {
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-card">
-              <div className="project-image">
-                <span>{project.image}</span>
+              <div
+                className="project-image"
+                style={{
+                  backgroundImage: `linear-gradient(135deg, rgba(229,225,220,0.45), rgba(139,46,46,0.55)), url(${project.image})`,
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                }}
+              >
+                <span className="project-image-label">{project.title}</span>
               </div>
               <div className="project-content">
                 <h3>{project.title}</h3>
