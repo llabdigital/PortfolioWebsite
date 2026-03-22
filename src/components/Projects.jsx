@@ -16,7 +16,7 @@ function Projects() {
       id: 2,
       title: 'Countdown Challenge',
       description:
-        'A clean, interactive desktop timing game where users test their precision by starting and stopping a countdown timer. The application features real-time feedback, simple game controls, and dynamic state updates that create an engaging, challenge-based user experience.',
+        'A desktop timing game where users test their precision by starting and stopping a countdown timer. The application provides real-time feedback, simple controls, and dynamic state updates that create an engaging, challenge-based experience.',
       technologies: ['HTML/CSS', 'JavaScript', 'Lead Forms', 'SEO Optimized'],
       link: 'https://cosmic-zabaione-3384db.netlify.app/',
       image: CountdownImg,
