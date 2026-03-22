@@ -4,11 +4,10 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Local Coffee Shop Website',
-      description:
-        'Professional website for a local cafe with menu display, online reservations, and social media integration.',
-      technologies: ['React', 'HTML/CSS', 'Contact Forms', 'Responsive Design'],
-      link: '#',
+      title: 'Tic-Tac-Toe',
+      description: 'Tic-Tac-Toe game for desktop',
+      technologies: ['React', 'HTML/CSS'],
+      link: 'https://roaring-froyo-f8ab53.netlify.app/',
       image: '☕',
     },
     {
@@ -25,7 +24,12 @@ function Projects() {
       title: 'Real Estate Agency Website',
       description:
         'Property listing website showcasing homes for sale with image galleries, agent profiles, and property filters.',
-      technologies: ['React', 'CSS Grid', 'Image Galleries', 'Responsive Layout'],
+      technologies: [
+        'React',
+        'CSS Grid',
+        'Image Galleries',
+        'Responsive Layout',
+      ],
       link: '#',
       image: '🏠',
     },
@@ -34,7 +38,12 @@ function Projects() {
       title: 'Dental Practice Website',
       description:
         'Professional website for dental clinic featuring services, appointment booking, patient testimonials, and contact info.',
-      technologies: ['React', 'Contact Forms', 'Appointment Booking', 'Mobile Responsive'],
+      technologies: [
+        'React',
+        'Contact Forms',
+        'Appointment Booking',
+        'Mobile Responsive',
+      ],
       link: '#',
       image: '😁',
     },
@@ -43,7 +52,12 @@ function Projects() {
       title: 'Local Electrician Lead Form',
       description:
         'Lead capture system for electrical services with service request forms, service areas, and instant quote requests.',
-      technologies: ['Form Builder', 'JavaScript', 'Email Integration', 'Analytics'],
+      technologies: [
+        'Form Builder',
+        'JavaScript',
+        'Email Integration',
+        'Analytics',
+      ],
       link: '#',
       image: '⚡',
     },
