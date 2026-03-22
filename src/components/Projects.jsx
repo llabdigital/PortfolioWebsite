@@ -1,5 +1,6 @@
 import './Projects.css';
 import TTTImg from '../assets/Tic-Tac-Toe.png';
+import CountdownImg from '../assets/CountdownChallenge.png';
 
 function Projects() {
   const projects = [
@@ -17,8 +18,8 @@ function Projects() {
       description:
         'Lead generation landing page for heating and cooling services with service areas, testimonials, and CTA buttons.',
       technologies: ['HTML/CSS', 'JavaScript', 'Lead Forms', 'SEO Optimized'],
-      link: '#',
-      image: '🔧',
+      link: 'https://cosmic-zabaione-3384db.netlify.app/',
+      image: CountdownImg,
     },
     {
       id: 3,
