@@ -3,12 +3,14 @@ import TTTImg from '../assets/Tic-Tac-Toe.png';
 import CountdownImg from '../assets/CountdownChallenge.png';
 import ClothingImg from '../assets/ClothingStorefront.png';
 import TaskImg from '../assets/TaskManager.png';
+
 function Projects() {
   const projects = [
     {
       id: 1,
       title: 'Tic-Tac-Toe',
-      description: 'A clean, interactive desktop implementation of the classic two-player Tic Tac Toe game built with modern web technologies. Players take turns placing their marks on a dynamic game board, featuring real-time win detection, draw logic, and simple game reset functionality.',
+      description:
+        'A clean, interactive desktop implementation of the classic two-player Tic Tac Toe game built with modern web technologies. Players take turns placing their marks on a dynamic game board, featuring real-time win detection, draw logic, and simple game reset functionality.',
       technologies: ['React', 'HTML/CSS'],
       link: 'https://roaring-froyo-f8ab53.netlify.app/',
       image: TTTImg,
