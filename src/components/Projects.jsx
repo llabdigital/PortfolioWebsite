@@ -1,6 +1,7 @@
 import './Projects.css';
 import TTTImg from '../assets/Tic-Tac-Toe.png';
 import CountdownImg from '../assets/CountdownChallenge.png';
+import ClothingImg from '../assets/ClothingStorefront.png';
 
 function Projects() {
   const projects = [
@@ -23,17 +24,17 @@ function Projects() {
     },
     {
       id: 3,
-      title: 'Real Estate Agency Website',
+      title: 'Clothing Storefront',
       description:
-        'Property listing website showcasing homes for sale with image galleries, agent profiles, and property filters.',
+        'An interactive storefront interface showcasing a selection of clothing items with dynamic cart functionality. Users can browse products, add and remove items from their cart, and see updates reflected in real time. This project focuses on front-end state management, user interaction, and building a basic e-commerce-style experience.',
       technologies: [
         'React',
         'CSS Grid',
         'Image Galleries',
         'Responsive Layout',
       ],
-      link: '#',
-      image: '🏠',
+      link: 'https://teal-bublanina-d2a8b8.netlify.app/',
+      image: ClothingImg,
     },
     {
       id: 4,
