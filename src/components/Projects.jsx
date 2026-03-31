@@ -2,7 +2,7 @@ import './Projects.css';
 import TTTImg from '../assets/Tic-Tac-Toe.png';
 import CountdownImg from '../assets/CountdownChallenge.png';
 import ClothingImg from '../assets/ClothingStorefront.png';
-
+import TaskImg from '../assets/TaskManager.png';
 function Projects() {
   const projects = [
     {
@@ -38,7 +38,7 @@ function Projects() {
     },
     {
       id: 4,
-      title: 'Dental Practice Website',
+      title: 'Task Manager',
       description:
         'Professional website for dental clinic featuring services, appointment booking, patient testimonials, and contact info.',
       technologies: [
@@ -47,8 +47,8 @@ function Projects() {
         'Appointment Booking',
         'Mobile Responsive',
       ],
-      link: '#',
-      image: '😁',
+      link: 'https://spiffy-cranachan-3a0c96.netlify.app/',
+      image: TaskImg,
     },
     {
       id: 5,
