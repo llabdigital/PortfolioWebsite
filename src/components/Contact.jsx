@@ -7,12 +7,6 @@ function Contact({ onFormChange, onFormSubmit, formData }) {
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Let's Work Together</h3>
-            <p>
-              I'm always interested in hearing about new projects and
-              opportunities. Feel free to reach out if you'd like to
-              collaborate.
-            </p>
           </div>
           <form className="contact-form" onSubmit={onFormSubmit}>
             <div className="form-group">
