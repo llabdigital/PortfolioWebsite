@@ -39,14 +39,6 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="about-image">
-            <div className="image-placeholder">
-              <div className="placeholder-content">
-                <span>📸</span>
-                <p>Your Photo Here</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
