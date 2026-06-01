@@ -13,43 +13,6 @@ function Contact({ onFormChange, onFormSubmit, formData }) {
               opportunities. Feel free to reach out if you'd like to
               collaborate.
             </p>
-            <div className="contact-details">
-              <div className="contact-item">
-                <span className="icon">📧</span>
-                <div>
-                  <h4>Email</h4>
-                  <p>your.email@example.com</p>
-                </div>
-              </div>
-              <div className="contact-item">
-                <span className="icon">📱</span>
-                <div>
-                  <h4>Phone</h4>
-                  <p>+1 (555) 000-0000</p>
-                </div>
-              </div>
-              <div className="contact-item">
-                <span className="icon">📍</span>
-                <div>
-                  <h4>Location</h4>
-                  <p>Your City, Your Country</p>
-                </div>
-              </div>
-            </div>
-            <div className="social-links">
-              <a href="#" className="social-link" title="GitHub">
-                GitHub
-              </a>
-              <a href="#" className="social-link" title="LinkedIn">
-                LinkedIn
-              </a>
-              <a href="#" className="social-link" title="Twitter">
-                Twitter
-              </a>
-              <a href="#" className="social-link" title="Portfolio">
-                Portfolio
-              </a>
-            </div>
           </div>
           <form className="contact-form" onSubmit={onFormSubmit}>
             <div className="form-group">
