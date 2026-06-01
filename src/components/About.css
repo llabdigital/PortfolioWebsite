@@ -39,9 +39,9 @@
 }
 
 .about-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
   margin-top: 2rem;
 }
 
